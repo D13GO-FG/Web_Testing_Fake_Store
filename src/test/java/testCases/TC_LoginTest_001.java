@@ -8,10 +8,10 @@ import static org.testng.Assert.assertEquals;
 
 public class TC_LoginTest_001 extends BaseTest{
 
-    @Test()
-    public void verifySuccessfulLogin(){
-        LoginSteps loginSteps = new LoginSteps(driver);
-        InventorySteps productsSteps = new InventorySteps(driver);
+    @Test(groups = "SmokeTest")
+    public void testSuccessfulLogin(){
+        LoginSteps loginSteps = new LoginSteps(getDriver());
+        InventorySteps productsSteps = new InventorySteps(getDriver());
         loginSteps.typeUsername(username);
         loginSteps.typePassword(password);
         loginSteps.clickLogin();

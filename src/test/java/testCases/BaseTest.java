@@ -3,12 +3,9 @@ package testCases;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 import utilities.ReadConfig;
 
 import java.time.Duration;
@@ -19,7 +16,11 @@ public class BaseTest {
     public String username = readConfig.getUsername();
     public String password = readConfig.getPassword();
 
-    protected WebDriver driver;
+    private WebDriver driver;
+
+    public WebDriver getDriver(){
+        return this.driver;
+    }
 
     @Parameters("browser")
     @BeforeClass
@@ -33,9 +34,10 @@ public class BaseTest {
             }
             case "edge" -> {
                 WebDriverManager.edgedriver().setup();
-                EdgeOptions optionsEdge = new EdgeOptions();
-                optionsEdge.addArguments("--headless");
-                driver = new EdgeDriver(optionsEdge);
+//                EdgeOptions optionsEdge = new EdgeOptions();
+//                optionsEdge.addArguments("--headless");
+//                driver = new EdgeDriver(optionsEdge);
+                driver = new EdgeDriver();
             }
             default -> System.out.println("Browser " + browser + " is not support");
         }

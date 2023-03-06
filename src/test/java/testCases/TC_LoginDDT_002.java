@@ -13,16 +13,16 @@ import static org.testng.Assert.assertEquals;
 public class TC_LoginDDT_002 extends BaseTest{
 
     @Test(dataProvider = "LoginData")
-    public void verifySuccessfulLogin(String user, String pwd, String exp){
-        LoginSteps loginSteps = new LoginSteps(driver);
-        InventorySteps productsSteps = new InventorySteps(driver);
+    public void testCredentialsLogin(String user, String pwd, String exp){
+        LoginSteps loginSteps = new LoginSteps(getDriver());
+        InventorySteps productsSteps = new InventorySteps(getDriver());
         loginSteps.typeUsername(user);
         loginSteps.typePassword(pwd);
         loginSteps.clickLogin();
 
         if (exp.equals("Valid")){
             assertEquals(productsSteps.getPageText(), "Products", "It's not right page.");
-            driver.navigate().back();
+            getDriver().navigate().back();
         }else {
             assertEquals(loginSteps.getTextError(), "Epic sadface: Sorry, this user has been locked out.", "This is not right error message");
         }
