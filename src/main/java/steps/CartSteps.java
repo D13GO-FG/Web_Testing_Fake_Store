@@ -14,6 +14,10 @@ public class CartSteps extends BaseSteps{
         cartPage = PageFactory.initElements(driver, CartPage.class);
     }
 
+    public String getPageText(){
+        return readText(cartPage.getPageTitle());
+    }
+
     public ArrayList<String> productsInCart(){
         ArrayList<String> products = new ArrayList<String>();
         for (WebElement product: cartPage.getProductAdded()) {

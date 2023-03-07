@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="Test case 001: Verify correct access to web app using right credentials.&#10;Test case 002: Verify multiple credentials using data driver approach.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/CartSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_AddProductToCart_003.java" afterDir="false" />
+    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="Added README.md file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/InventoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/CartSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/steps/InventorySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/InventorySteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginDDT_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginDDT_002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_AddProductToCart_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_AddProductToCart_003.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginTest_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginTest_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tesng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tesng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tesng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +41,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\2022\Java Projects\Web_Testing_Fake_Store\src\test\java\testData" />
@@ -127,7 +128,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678093186157</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test case 003: Verify if products added are equals in cart. Is need it fix TestNG.">
+      <created>1678100649653</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678100649653</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test case 003: Verify if products added are equals in cart. Is need it fix TestNG.">
+      <created>1678100663915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678100663915</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added README.md file">
+      <created>1678100811191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678100811191</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,22 +166,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up files structure for hybrid Drive Framework (Data Driver and Keyword Driver)." />
     <MESSAGE value="Test case 001: Verify correct access to web app using right credentials.&#10;Test case 002: Verify multiple credentials using data driver approach." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test case 001: Verify correct access to web app using right credentials.&#10;Test case 002: Verify multiple credentials using data driver approach." />
+    <MESSAGE value="Test case 003: Verify if products added are equals in cart." />
+    <MESSAGE value="Test case 003: Verify if products added are equals in cart. Is need it fix TestNG." />
+    <MESSAGE value="Added README.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added README.md file" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/steps/CartSteps.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/testCases/TC_AddProductToCart_003.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="steps.InventorySteps" memberName="inventoryPage" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

@@ -16,14 +16,14 @@ public class BaseTest {
     public String username = readConfig.getUsername();
     public String password = readConfig.getPassword();
 
-    private WebDriver driver;
+    private static WebDriver driver;
 
-    public WebDriver getDriver(){
-        return this.driver;
+    public static WebDriver getDriver(){
+        return driver;
     }
 
+    @BeforeTest(alwaysRun = true, description = "Running setup driver")
     @Parameters("browser")
-    @BeforeClass
     public void setUp(String browser){
         switch (browser) {
             case "firefox" -> {
@@ -45,10 +45,8 @@ public class BaseTest {
         driver.get(baseURL);
     }
 
-    @AfterClass
+    @AfterTest(alwaysRun = true)
     public void teardown(){
-        if (driver != null){
             driver.quit();
-        }
     }
 }

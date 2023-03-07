@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="test_suite">
     <test name="Check Add Products">
-        <parameter name="browser" value="edge"/>
+        <parameter name="browser" value="firefox"/>
         <groups>
             <run>
                 <include name="SmokeTest"/>
@@ -11,6 +11,13 @@
         <classes>
             <class name="testCases.TC_LoginTest_001"/>
             <class name="testCases.TC_AddProductToCart_003"/>
+<!--            <class name="testCases.TC_LoginDDT_002"></class>-->
+        </classes>
+    </test>
+    <test name="Check login by DDT">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testCases.TC_LoginDDT_002"/>
         </classes>
     </test>
 </suite>

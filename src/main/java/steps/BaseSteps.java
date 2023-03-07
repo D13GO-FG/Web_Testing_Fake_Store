@@ -46,9 +46,7 @@ public class BaseSteps {
     }
 
     protected void click(WebElement element){
-        getWait().until(ExpectedConditions.elementToBeClickable(element)).click();
+        waitForDisplayedElement(element, SMALL_WAIT).click();
+//        getWait().until(ExpectedConditions.elementToBeClickable(element)).click();
     }
-
-
-
 }

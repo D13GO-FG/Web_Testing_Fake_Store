@@ -16,7 +16,14 @@ public class CartPage extends BasePage{
     @FindBy(how = How.CLASS_NAME, using = "inventory_item_name")
     private List<WebElement> productAdded;
 
+    @FindBy(how = How.CLASS_NAME, using = "title")
+    private WebElement pageTitle;
+
     public List<WebElement> getProductAdded() {
         return productAdded;
+    }
+
+    public WebElement getPageTitle() {
+        return pageTitle;
     }
 }
