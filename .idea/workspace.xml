@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="Added README.md file">
+    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="Fixed TC_AddProductToCart_003, updated README.md and testng.xml, added Jenkinsfile.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/CheckoutInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/CheckoutOverviewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/CheckoutInfoSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/CheckoutOverviewSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_CheckoutFillOutInfoDDT_004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testData/CheckoutFillOut.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/InventoryPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/BaseSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/steps/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/CartSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/InventorySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/InventorySteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_AddProductToCart_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_AddProductToCart_003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginDDT_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginDDT_002.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginTest_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginTest_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tesng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +58,20 @@
       <recent name="D:\2022\Java Projects\Web_Testing_Fake_Store\src\test\java\testData" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/2022/Java Projects/Web_Testing_Fake_Store/tesng.xml">
+  <component name="RunManager" selected="TestNG.D:/2022/Java Projects/Web_Testing_Fake_Store/testng.xml">
     <configuration name="D:/2022/Java Projects/Web_Testing_Fake_Store/tesng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Web_Testing_Fake_Store" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/tesng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/2022/Java Projects/Web_Testing_Fake_Store/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Web_Testing_Fake_Store" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -99,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/2022/Java Projects/Web_Testing_Fake_Store/testng.xml" />
         <item itemvalue="TestNG.D:/2022/Java Projects/Web_Testing_Fake_Store/tesng.xml" />
         <item itemvalue="TestNG.TC_LoginTest_001" />
         <item itemvalue="TestNG.TC_LoginDDT_002" />
@@ -149,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678100811191</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed TC_AddProductToCart_003, updated README.md and testng.xml, added Jenkinsfile.">
+      <created>1678161401561</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678161401561</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +193,8 @@
     <MESSAGE value="Test case 003: Verify if products added are equals in cart." />
     <MESSAGE value="Test case 003: Verify if products added are equals in cart. Is need it fix TestNG." />
     <MESSAGE value="Added README.md file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added README.md file" />
+    <MESSAGE value="Fixed TC_AddProductToCart_003, updated README.md and testng.xml, added Jenkinsfile." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed TC_AddProductToCart_003, updated README.md and testng.xml, added Jenkinsfile." />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

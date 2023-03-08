@@ -12,7 +12,7 @@ import static org.testng.Assert.assertEquals;
 
 public class TC_LoginDDT_002 extends BaseTest{
 
-    @Test(dataProvider = "LoginData")
+    @Test(dataProvider = "LoginData", groups = {"DDT"})
     public void testCredentialsLogin(String user, String pwd, String exp){
         LoginSteps loginSteps = new LoginSteps(getDriver());
         InventorySteps productsSteps = new InventorySteps(getDriver());
@@ -37,14 +37,14 @@ public class TC_LoginDDT_002 extends BaseTest{
         int totalRows = xlUtility.getRowCount("Hoja 1");
         int totalCols = xlUtility.getCellCount("Hoja 1", 1);
 
-        Object[][] loginData = new Object[totalRows][totalCols];
+        Object[][] data = new Object[totalRows][totalCols];
 
         for (int i = 1; i <= totalRows; i++) { // index 1 to omit table header
             for (int j = 0; j < totalCols; j++) { // index 0
-                loginData[i - 1][j] = xlUtility.getCellData("Hoja 1", i, j);
+                data[i - 1][j] = xlUtility.getCellData("Hoja 1", i, j);
             }
         }
 
-        return loginData;
+        return data;
     }
 }

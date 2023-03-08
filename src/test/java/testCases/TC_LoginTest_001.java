@@ -8,7 +8,7 @@ import static org.testng.Assert.assertEquals;
 
 public class TC_LoginTest_001 extends BaseTest{
 
-    @Test(alwaysRun = true, groups = {"SmokeTest"} , description = "Test case: ")
+    @Test(alwaysRun = true, groups = {"SmokeTest","DDT"} , description = "Test case: ")
     public void testSuccessfulLogin(){
         LoginSteps loginSteps = new LoginSteps(getDriver());
         InventorySteps productsSteps = new InventorySteps(getDriver());

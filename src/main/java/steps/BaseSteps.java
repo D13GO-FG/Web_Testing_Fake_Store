@@ -27,7 +27,7 @@ public class BaseSteps {
         return new WebDriverWait(this_driver, Duration.ofSeconds(timeOutSeconds));
     }
 
-    protected WebDriverWait getWait(){
+    public WebDriverWait getWait(){
         return waitOn(driver, SMALL_WAIT);
     }
 

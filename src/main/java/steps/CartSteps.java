@@ -26,5 +26,8 @@ public class CartSteps extends BaseSteps{
         return products;
     }
 
+    public void clickCheckout(){
+        click(cartPage.getBtnCheckout());
+    }
 
 }
