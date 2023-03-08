@@ -32,7 +32,6 @@ public class CartSteps extends BaseSteps{
         for (WebElement product: cartPage.getProductAdded()) {
             total += Double.parseDouble(product.findElement(By.className("inventory_item_price")).getText().replace("$", ""));
         }
-        System.out.println(total);
         return total;
     }
 

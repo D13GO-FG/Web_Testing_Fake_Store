@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="TC_CheckoutFillOutInfoDDT_004: Verify if fill out the information works with multiple data.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/CheckoutCompletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/CheckoutCompleteSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_CheckoutFillOutInfo_005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_CheckoutFinishPurchaseTest_006.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/CheckoutOverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/CheckoutOverviewPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/CartSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/CheckoutOverviewSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/CheckoutOverviewSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_AddProductToCart_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_AddProductToCart_003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_CheckoutFillOutInfoDDT_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_CheckoutFillOutInfoDDT_004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="TC_CheckoutFillOutInfo_005: CheckoutFillOut Page fill out your information to continue the purchase.&#10;TC_CheckoutFinishPurchase_006: Finish correctly the purchase." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678235884647</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="TC_CheckoutFillOutInfo_005: CheckoutFillOut Page fill out your information to continue the purchase.&#10;TC_CheckoutFinishPurchase_006: Finish correctly the purchase.">
+      <created>1678245802209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678245802209</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +191,8 @@
     <MESSAGE value="Added README.md file" />
     <MESSAGE value="Fixed TC_AddProductToCart_003, updated README.md and testng.xml, added Jenkinsfile." />
     <MESSAGE value="TC_CheckoutFillOutInfoDDT_004: Verify if fill out the information works with multiple data." />
-    <option name="LAST_COMMIT_MESSAGE" value="TC_CheckoutFillOutInfoDDT_004: Verify if fill out the information works with multiple data." />
+    <MESSAGE value="TC_CheckoutFillOutInfo_005: CheckoutFillOut Page fill out your information to continue the purchase.&#10;TC_CheckoutFinishPurchase_006: Finish correctly the purchase." />
+    <option name="LAST_COMMIT_MESSAGE" value="TC_CheckoutFillOutInfo_005: CheckoutFillOut Page fill out your information to continue the purchase.&#10;TC_CheckoutFinishPurchase_006: Finish correctly the purchase." />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
