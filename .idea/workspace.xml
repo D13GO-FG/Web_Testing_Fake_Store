@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="TC_CheckoutFillOutInfo_005: CheckoutFillOut Page fill out your information to continue the purchase.&#10;TC_CheckoutFinishPurchase_006: Finish correctly the purchase." />
+    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="TC_CheckoutFinishPurchase_006: removed lines to print in console.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678245802209</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="TC_CheckoutFinishPurchase_006: removed lines to print in console.">
+      <created>1678246317473</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678246317473</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +203,8 @@
     <MESSAGE value="Fixed TC_AddProductToCart_003, updated README.md and testng.xml, added Jenkinsfile." />
     <MESSAGE value="TC_CheckoutFillOutInfoDDT_004: Verify if fill out the information works with multiple data." />
     <MESSAGE value="TC_CheckoutFillOutInfo_005: CheckoutFillOut Page fill out your information to continue the purchase.&#10;TC_CheckoutFinishPurchase_006: Finish correctly the purchase." />
-    <option name="LAST_COMMIT_MESSAGE" value="TC_CheckoutFillOutInfo_005: CheckoutFillOut Page fill out your information to continue the purchase.&#10;TC_CheckoutFinishPurchase_006: Finish correctly the purchase." />
+    <MESSAGE value="TC_CheckoutFinishPurchase_006: removed lines to print in console." />
+    <option name="LAST_COMMIT_MESSAGE" value="TC_CheckoutFinishPurchase_006: removed lines to print in console." />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
