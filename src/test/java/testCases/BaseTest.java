@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.*;
 import utilities.ReadConfig;
 
@@ -27,10 +28,10 @@ public class BaseTest {
         switch (browser) {
             case "firefox" -> {
                 WebDriverManager.firefoxdriver().setup();
-//                FirefoxOptions optionsFirefox = new FirefoxOptions();
-//                optionsFirefox.addArguments("--headless");
-//                driver = new FirefoxDriver(optionsFirefox);
-                driver = new FirefoxDriver();
+                FirefoxOptions optionsFirefox = new FirefoxOptions();
+                optionsFirefox.addArguments("--headless");
+                driver = new FirefoxDriver(optionsFirefox);
+//                driver = new FirefoxDriver();
             }
             case "edge" -> {
                 WebDriverManager.edgedriver().setup();

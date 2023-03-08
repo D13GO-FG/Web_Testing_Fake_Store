@@ -13,7 +13,7 @@ public class CartPage extends BasePage{
         super(driver);
     }
 
-    @FindBy(how = How.CLASS_NAME, using = "inventory_item_name")
+    @FindBy(how = How.CLASS_NAME, using = "cart_item")
     private List<WebElement> productAdded;
 
     @FindBy(how = How.CLASS_NAME, using = "title")

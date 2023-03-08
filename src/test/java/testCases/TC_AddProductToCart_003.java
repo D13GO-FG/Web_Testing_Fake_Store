@@ -1,5 +1,6 @@
 package testCases;
 
+import org.testng.ITestContext;
 import org.testng.annotations.Test;
 import steps.CartSteps;
 import steps.InventorySteps;
@@ -11,7 +12,7 @@ import static org.testng.Assert.assertEquals;
 public class TC_AddProductToCart_003 extends BaseTest{
 
     @Test(alwaysRun = true, groups = {"SmokeTest", "DDT"})
-    public void testAddNewProducts(){
+    public void testAddNewProducts(ITestContext context){
         InventorySteps inventorySteps = new InventorySteps(getDriver());
         CartSteps cartSteps = new CartSteps(getDriver());
         // Add products to cart
@@ -23,8 +24,14 @@ public class TC_AddProductToCart_003 extends BaseTest{
         // Read title of products in cart
         ArrayList<String> actualProductsCart = cartSteps.productsInCart();
         //Verify if are the same
-        assertEquals(expectedProductsInventory, actualProductsCart, "Elements added in inventory are not equal to elements in cart.");
+        assertEquals(actualProductsCart, expectedProductsInventory, "Elements added in inventory are not equal to elements in cart.");
+
+        context.setAttribute("ListProducts", actualProductsCart);
+        context.setAttribute("totalPrice", cartSteps.totalPrice());
+
         // Click in button checkout
         cartSteps.clickCheckout();
+
+
     }
 }

@@ -11,9 +11,22 @@
         <classes>
             <class name="testCases.TC_LoginTest_001"/>
             <class name="testCases.TC_AddProductToCart_003"/>
+            <class name="testCases.TC_CheckoutFillOutInfo_005"/>
+            <class name="testCases.TC_CheckoutFinishPurchase_006"/>
         </classes>
     </test>
     <test name="Check login by DDT">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="DDT"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testCases.TC_LoginDDT_002"/>
+        </classes>
+    </test>
+    <test name="Check checkout fill out form by DDT">
         <parameter name="browser" value="firefox"/>
         <groups>
             <run>

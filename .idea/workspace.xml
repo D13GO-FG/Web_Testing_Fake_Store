@@ -4,23 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="Fixed TC_AddProductToCart_003, updated README.md and testng.xml, added Jenkinsfile.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/CheckoutInfoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/CheckoutOverviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/CheckoutInfoSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/CheckoutOverviewSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_CheckoutFillOutInfoDDT_004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testData/CheckoutFillOut.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="TC_CheckoutFillOutInfoDDT_004: Verify if fill out the information works with multiple data.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/CheckoutCompletePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/CheckoutCompleteSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_CheckoutFillOutInfo_005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_CheckoutFinishPurchaseTest_006.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/CheckoutOverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/CheckoutOverviewPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/steps/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/CartSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/CheckoutOverviewSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/CheckoutOverviewSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_AddProductToCart_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_AddProductToCart_003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginDDT_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginDDT_002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginTest_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginTest_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_CheckoutFillOutInfoDDT_004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_CheckoutFillOutInfoDDT_004.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678161401561</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TC_CheckoutFillOutInfoDDT_004: Verify if fill out the information works with multiple data.">
+      <created>1678235884647</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678235884647</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +197,8 @@
     <MESSAGE value="Test case 003: Verify if products added are equals in cart. Is need it fix TestNG." />
     <MESSAGE value="Added README.md file" />
     <MESSAGE value="Fixed TC_AddProductToCart_003, updated README.md and testng.xml, added Jenkinsfile." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed TC_AddProductToCart_003, updated README.md and testng.xml, added Jenkinsfile." />
+    <MESSAGE value="TC_CheckoutFillOutInfoDDT_004: Verify if fill out the information works with multiple data." />
+    <option name="LAST_COMMIT_MESSAGE" value="TC_CheckoutFillOutInfoDDT_004: Verify if fill out the information works with multiple data." />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
