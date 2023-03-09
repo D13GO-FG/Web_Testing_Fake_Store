@@ -6,7 +6,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
+import utilities.FailureManager;
 import utilities.ReadConfig;
 import utilities.TestListener;
 
@@ -55,29 +57,11 @@ public class BaseTest {
             driver.remove();
     }
 
-//    @AfterMethod
-//    public void screenShot(ITestResult result) {
-//
-//        // ITestResult.FAILURE is equals to result.getStatus then it enter into
-//        // if condition
-//
-//        if (ITestResult.FAILURE == result.getStatus()) {
-//            try {
-//
-//                // To create reference of TakesScreenshot
-//                TakesScreenshot screenshot = (TakesScreenshot) driver;
-//
-//                // Call method to capture screenshot
-//                File src = screenshot.getScreenshotAs(OutputType.FILE);
-//
-//                // Copy files to specific location result.getName() will
-//                // return  name of test case so that screenshot name will be same as test case name
-//
-//                FileUtils.copyFile(src, new File("./screenshots/" + result.getName() + System.currentTimeMillis() + ".png"));
-//                System.out.println("Successfully captured a screenshot");
-//            } catch (Exception e) {
-//                System.out.println("Exception while taking screenshot " + e.getMessage());
-//            }
-//        }
-//    }
+    @AfterMethod(alwaysRun = true)
+    public void screenShot(ITestResult result) {
+        if (result.getStatus() == ITestResult.FAILURE) {
+            FailureManager failureManager = new FailureManager(getDriver());
+            failureManager.takePngScreenshot(result.getName());
+        }
+    }
 }

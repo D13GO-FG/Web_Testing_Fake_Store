@@ -12,8 +12,8 @@ target/
 *.iml
 *.ipr
 
-log4j/
-.log
+log/
+screenshots/
 
 ### Eclipse ###
 .apt_generated
