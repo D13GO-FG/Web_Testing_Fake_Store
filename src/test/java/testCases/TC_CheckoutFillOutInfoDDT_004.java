@@ -12,7 +12,7 @@ import static org.testng.Assert.*;
 
 public class TC_CheckoutFillOutInfoDDT_004 extends BaseTest{
     @Test(dataProvider = "checkoutFillOutData", groups = {"DDT"})
-    public void testCheckoutFillOutInfoDDT(String firstName, String lastName, String zipCode, String errorMsg) {
+    public void testCheckoutFillOutInfoDDT(String firstName, String lastName, String zipCode, String errorMsg) throws Exception {
         CheckoutInfoSteps checkoutInfoSteps = new CheckoutInfoSteps(getDriver());
         CheckoutOverviewSteps checkoutOverviewSteps = new CheckoutOverviewSteps(getDriver());
 

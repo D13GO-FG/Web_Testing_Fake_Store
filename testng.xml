@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="test_suite" parallel="tests" thread-count="3">
+<suite name="test_suite" parallel="none" thread-count="3">
+    <listeners>
+        <listener class-name="utilities.TestListener"/>
+    </listeners>
     <test name="Check Add Products">
-        <parameter name="browser" value="firefox"/>
+        <parameter name="browser" value="edge"/>
         <groups>
             <run>
                 <include name="SmokeTest"/>
@@ -16,7 +19,7 @@
         </classes>
     </test>
     <test name="Check login by DDT">
-        <parameter name="browser" value="firefox"/>
+        <parameter name="browser" value="edge"/>
         <groups>
             <run>
                 <include name="DDT"/>
