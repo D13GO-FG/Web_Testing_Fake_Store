@@ -22,7 +22,7 @@
         <parameter name="browser" value="edge"/>
         <groups>
             <run>
-                <include name="DDT"/>
+                <include name="TC_1_DDT"/>
             </run>
         </groups>
         <classes>
@@ -33,7 +33,7 @@
         <parameter name="browser" value="firefox"/>
         <groups>
             <run>
-                <include name="DDT"/>
+                <include name="TC_2_DDT"/>
             </run>
         </groups>
         <classes>

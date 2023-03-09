@@ -11,7 +11,7 @@ import static org.testng.Assert.assertEquals;
 
 public class TC_AddProductToCart_003 extends BaseTest{
 
-    @Test(alwaysRun = true, groups = {"SmokeTest", "DDT"})
+    @Test(alwaysRun = true, groups = {"SmokeTest", "TC_2_DDT"})
     public void testAddNewProducts(ITestContext context){
         InventorySteps inventorySteps = new InventorySteps(getDriver());
         CartSteps cartSteps = new CartSteps(getDriver());

@@ -4,6 +4,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import steps.InventorySteps;
 import steps.LoginSteps;
+import utilities.RetryAnalyzer;
 import utilities.XLUtility;
 
 import java.io.IOException;
@@ -12,7 +13,7 @@ import static org.testng.Assert.assertEquals;
 
 public class TC_LoginDDT_002 extends BaseTest{
 
-    @Test(dataProvider = "LoginData", groups = {"DDT"})
+    @Test(dataProvider = "LoginData", groups = {"TC_1_DDT"}, retryAnalyzer = RetryAnalyzer.class)
     public void testCredentialsLogin(String user, String pwd, String exp){
         LoginSteps loginSteps = new LoginSteps(getDriver());
         InventorySteps productsSteps = new InventorySteps(getDriver());

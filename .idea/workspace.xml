@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="Added files to logger steps using TestNG Listeners and log42j.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/FailureManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="Added classes to Screenshot of Failed Test Case using a FailureManager class.&#10;Removed log file or remote repository using gitignore.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/RetryAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log4j/log4j-test-automation.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginTest_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginTest_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginDDT_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginDDT_002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678331247236</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added classes to Screenshot of Failed Test Case using a FailureManager class.&#10;Removed log file or remote repository using gitignore.">
+      <created>1678334983177</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678334983177</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,9 +230,19 @@
     <MESSAGE value="TC_CheckoutFinishPurchase_006: removed lines to print in console." />
     <MESSAGE value="Added parallel testing." />
     <MESSAGE value="Added files to logger steps using TestNG Listeners and log42j." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added files to logger steps using TestNG Listeners and log42j." />
+    <MESSAGE value="Added classes to Screenshot of Failed Test Case using a FailureManager class.&#10;Removed log file or remote repository using gitignore." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added classes to Screenshot of Failed Test Case using a FailureManager class.&#10;Removed log file or remote repository using gitignore." />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/RetryAnalyzer.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="steps.InventorySteps" memberName="inventoryPage" />
