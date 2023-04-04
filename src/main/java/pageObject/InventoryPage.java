@@ -21,6 +21,9 @@ public class InventoryPage extends BasePage{
     @FindBy(how = How.CLASS_NAME, using = "inventory_item_description")
     private List<WebElement> listActualProducts;
 
+    @FindBy(how = How.XPATH, using = "//select[@class='product_sort_container']")
+    private WebElement selectedFilter;
+
     public WebElement getPageTitle() {
         return pageTitle;
     }
@@ -31,5 +34,9 @@ public class InventoryPage extends BasePage{
 
     public List<WebElement> getListActualProducts() {
         return listActualProducts;
+    }
+
+    public WebElement getSelectedFilter() {
+        return selectedFilter;
     }
 }

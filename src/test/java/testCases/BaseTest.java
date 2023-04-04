@@ -43,11 +43,12 @@ public class BaseTest {
                 EdgeOptions optionsEdge = new EdgeOptions();
                 optionsEdge.addArguments("--headless");
                 driver.set(new EdgeDriver(optionsEdge));
-//              driver.set(new EdgeDriver());
+                //driver.set(new EdgeDriver());
             }
             default -> System.out.println("Browser " + browser + " is not support");
         }
         driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.get().manage().window().maximize();
         driver.get().get(baseURL);
     }
 

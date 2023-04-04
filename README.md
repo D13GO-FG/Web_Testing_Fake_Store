@@ -1,6 +1,6 @@
 # Web_Testing_Fake_Store
 
-Functional testing of web app: https://www.saucedemo.com/
+Functional testing of web app: [https://www.saucedemo.com/](https://www.saucedemo.com/)
 
 This project is build following Hybrid Driven Framework (Data Driven Testing and Keyword Driven Testing) and with Page Object Model as design pattern.
 
@@ -92,4 +92,15 @@ This project is build following Hybrid Driven Framework (Data Driven Testing and
 |                                   |                                                 | User check right description "Complete!"                      |              Verify header complete               |
 |                                   |                                                 | User click button "Back Home"                                 |                                                   |
 |                                   |                                                 | User in page "Inventory"                                      |                 Verify title page                 |
+
+
+### Test Scenario
+- Finish correctly the purchase.
+
+|         Test Cases          | Test Description                                                      | Steps                                                |                             Expected Result                              |
+|:---------------------------:|:----------------------------------------------------------------------|:-----------------------------------------------------|:------------------------------------------------------------------------:|
+| TC_SelectFilterProducts_007 | Verify if filter works as expected when user choose a type of filter. | User click dropdown and choose "Name (A to Z)"       |    Verify if first placeholder in dropdown changed to "Name (A to Z)"    |
+|                             |                                                                       | User click dropdown and choose "Name (Z to A)"       |    Verify if first placeholder in dropdown changed to "Name (Z to A)"    |
+|                             |                                                                       | User click dropdown and choose "Price (low to high)" | Verify if first placeholder in dropdown changed to "Price (low to high)" |
+|                             |                                                                       | User click dropdown and choose "Price (high to low)" | Verify if first placeholder in dropdown changed to "Price (high to low)" |
 

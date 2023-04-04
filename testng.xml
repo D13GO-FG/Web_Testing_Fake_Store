@@ -13,6 +13,7 @@
         </groups>
         <classes>
             <class name="testCases.TC_LoginTest_001"/>
+            <class name="testCases.TC_SelectFilterProducts_007"/>
             <class name="testCases.TC_AddProductToCart_003"/>
             <class name="testCases.TC_CheckoutFillOutInfo_005"/>
             <class name="testCases.TC_CheckoutFinishPurchase_006"/>

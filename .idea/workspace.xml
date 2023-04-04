@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="Added classes to Screenshot of Failed Test Case using a FailureManager class.&#10;Removed log file or remote repository using gitignore.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/RetryAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="21cf01eb-6870-4239-a0cc-ac25103a18d1" name="Changes" comment="Added class to Retry failed tests in TestNG – IRetryAnalyzer">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_SelectFilterProducts_007.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginDDT_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_LoginDDT_002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/InventoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/InventorySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/InventorySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678334983177</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added class to Retry failed tests in TestNG – IRetryAnalyzer">
+      <created>1678339882597</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678339882597</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,18 +238,10 @@
     <MESSAGE value="Added parallel testing." />
     <MESSAGE value="Added files to logger steps using TestNG Listeners and log42j." />
     <MESSAGE value="Added classes to Screenshot of Failed Test Case using a FailureManager class.&#10;Removed log file or remote repository using gitignore." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added classes to Screenshot of Failed Test Case using a FailureManager class.&#10;Removed log file or remote repository using gitignore." />
+    <MESSAGE value="Added class to Retry failed tests in TestNG – IRetryAnalyzer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added class to Retry failed tests in TestNG – IRetryAnalyzer" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/utilities/RetryAnalyzer.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="steps.InventorySteps" memberName="inventoryPage" />
